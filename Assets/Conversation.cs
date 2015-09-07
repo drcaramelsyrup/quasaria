@@ -1,12 +1,18 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Xml;
+using System.Text;
+using System.IO;
 
 public class Conversation : MonoBehaviour {
-	public ConversationNode startNode;
+	public TextAsset conversationXmlFile;
+	public XmlDocument conversationXml;
+	public UnityEngine.UI.Text npcText;
+	public UnityEngine.UI.Text playerChoices;
 
 	// Initialization
 	void Start()
 	{
-		startNode = GetComponentInChildren<ConversationNode> ();
+		conversationXml = new XmlDocument ();
+		conversationXml.LoadXml (conversationXmlFile.text);
 	}
 }

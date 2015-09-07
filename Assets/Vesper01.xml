@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Conversation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <subNodes>
+    <ContentNode idNum="1" orderNum="1" linkTo="0" nodeType="npc">
+      <conversationText>Heya, how's it going?</conversationText>
+      <conversationComments>This dialogue should appear after the PC has already spoken to Vesper at least once.</conversationComments>
+      <subNodes>
+        <ContentNode idNum="4" orderNum="1" linkTo="0" nodeType="pc">
+          <conversationText>(Friendly) Can't complain. How about you?</conversationText>
+          <conversationComments />
+          <subNodes>
+            <ContentNode idNum="9" orderNum="1" linkTo="0" nodeType="npc">
+              <conversationText>I'm itching for some action. Sitting around in a dusty hangar gets dull, you know? Shore leave is nice for a while, but you get to miss the wind under your wings. Metaphorically speaking.</conversationText>
+              <conversationComments />
+              <subNodes>
+                <ContentNode idNum="0" orderNum="1" linkTo="2" nodeType="pc">
+                  <conversationText />
+                  <conversationComments />
+                  <subNodes />
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+                <ContentNode idNum="0" orderNum="2" linkTo="3" nodeType="pc">
+                  <conversationText />
+                  <conversationComments />
+                  <subNodes />
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+                <ContentNode idNum="0" orderNum="3" linkTo="7" nodeType="pc">
+                  <conversationText />
+                  <conversationComments />
+                  <subNodes />
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+              </subNodes>
+              <additionalData />
+              <infoObjects />
+            </ContentNode>
+          </subNodes>
+          <additionalData />
+          <infoObjects />
+        </ContentNode>
+        <ContentNode idNum="5" orderNum="2" linkTo="0" nodeType="pc">
+          <conversationText>(Sarcastic) Oh, you know... the usual. Politics, backstabbery, and pointless side quests. The daily grind.</conversationText>
+          <conversationComments />
+          <subNodes>
+            <ContentNode idNum="10" orderNum="1" linkTo="0" nodeType="npc">
+              <conversationText>Well, well, my friend. It sounds like you have some stories to tell. But I won't press you.</conversationText>
+              <conversationComments />
+              <subNodes>
+                <ContentNode idNum="0" orderNum="1" linkTo="2" nodeType="pc">
+                  <conversationText />
+                  <conversationComments />
+                  <subNodes />
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+                <ContentNode idNum="0" orderNum="2" linkTo="3" nodeType="pc">
+                  <conversationText />
+                  <conversationComments />
+                  <subNodes />
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+                <ContentNode idNum="0" orderNum="3" linkTo="7" nodeType="pc">
+                  <conversationText />
+                  <conversationComments />
+                  <subNodes />
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+              </subNodes>
+              <additionalData />
+              <infoObjects />
+            </ContentNode>
+          </subNodes>
+          <additionalData />
+          <infoObjects />
+        </ContentNode>
+        <ContentNode idNum="6" orderNum="3" linkTo="0" nodeType="pc">
+          <conversationText>(Rude) Never mind.</conversationText>
+          <conversationComments />
+          <subNodes>
+            <ContentNode idNum="8" orderNum="1" linkTo="0" nodeType="npc">
+              <conversationText>See you around, then.</conversationText>
+              <conversationComments />
+              <subNodes />
+              <additionalData />
+              <infoObjects />
+            </ContentNode>
+          </subNodes>
+          <additionalData />
+          <infoObjects />
+        </ContentNode>
+        <ContentNode idNum="2" orderNum="4" linkTo="0" nodeType="pc">
+          <conversationText>(Neutral) I was hoping to ask some more questions.</conversationText>
+          <conversationComments />
+          <subNodes>
+            <ContentNode idNum="17" orderNum="1" linkTo="0" nodeType="npc">
+              <conversationText>Ah, now's not really a good time for a chat. I'm in the middle of some repairs.</conversationText>
+              <conversationComments />
+              <subNodes>
+                <ContentNode idNum="18" orderNum="1" linkTo="0" nodeType="pc">
+                  <conversationText>(Neutral) What's wrong?</conversationText>
+                  <conversationComments />
+                  <subNodes>
+                    <ContentNode idNum="0" orderNum="1" linkTo="12" nodeType="npc">
+                      <conversationText />
+                      <conversationComments />
+                      <subNodes />
+                      <additionalData />
+                      <infoObjects />
+                    </ContentNode>
+                  </subNodes>
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+                <ContentNode idNum="19" orderNum="2" linkTo="0" nodeType="pc">
+                  <conversationText>(Neutral) That's all right. I'll be going.</conversationText>
+                  <conversationComments />
+                  <subNodes>
+                    <ContentNode idNum="0" orderNum="1" linkTo="11" nodeType="npc">
+                      <conversationText />
+                      <conversationComments />
+                      <subNodes />
+                      <additionalData />
+                      <infoObjects />
+                    </ContentNode>
+                  </subNodes>
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+              </subNodes>
+              <additionalData />
+              <infoObjects />
+            </ContentNode>
+          </subNodes>
+          <additionalData />
+          <infoObjects />
+        </ContentNode>
+        <ContentNode idNum="3" orderNum="5" linkTo="0" nodeType="pc">
+          <conversationText>(Neutral) What are you working on?</conversationText>
+          <conversationComments />
+          <subNodes>
+            <ContentNode idNum="12" orderNum="1" linkTo="0" nodeType="npc">
+              <conversationText>Noticed a weird spike in the engine scans last time I ran diagnostics, so I'm checking things out. I want the Black Aurora running smooth as silk the next time that big old space worm comes knocking.</conversationText>
+              <conversationComments />
+              <subNodes>
+                <ContentNode idNum="13" orderNum="1" linkTo="0" nodeType="pc">
+                  <conversationText>(Friendly) Need any help?</conversationText>
+                  <conversationComments />
+                  <subNodes>
+                    <ContentNode idNum="15" orderNum="1" linkTo="0" nodeType="npc">
+                      <conversationText>Not right now. I'm a pretty good solo mechanic, but I'll let you know if I need an extra hand.</conversationText>
+                      <conversationComments />
+                      <subNodes>
+                        <ContentNode idNum="20" orderNum="1" linkTo="0" nodeType="pc">
+                          <conversationText>See you later.</conversationText>
+                          <conversationComments />
+                          <subNodes>
+                            <ContentNode idNum="0" orderNum="1" linkTo="11" nodeType="npc">
+                              <conversationText />
+                              <conversationComments />
+                              <subNodes />
+                              <additionalData />
+                              <infoObjects />
+                            </ContentNode>
+                          </subNodes>
+                          <additionalData />
+                          <infoObjects />
+                        </ContentNode>
+                      </subNodes>
+                      <additionalData />
+                      <infoObjects />
+                    </ContentNode>
+                  </subNodes>
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+                <ContentNode idNum="14" orderNum="2" linkTo="0" nodeType="pc">
+                  <conversationText>(Neutral) Have you figured out what caused the engine spike?</conversationText>
+                  <conversationComments />
+                  <subNodes>
+                    <ContentNode idNum="16" orderNum="1" linkTo="0" nodeType="npc">
+                      <conversationText>Not yet. I'll bet it's something right under my nose that I just haven't noticed.</conversationText>
+                      <conversationComments />
+                      <subNodes>
+                        <ContentNode idNum="0" orderNum="1" linkTo="20" nodeType="pc">
+                          <conversationText />
+                          <conversationComments />
+                          <subNodes />
+                          <additionalData />
+                          <infoObjects />
+                        </ContentNode>
+                      </subNodes>
+                      <additionalData />
+                      <infoObjects />
+                    </ContentNode>
+                  </subNodes>
+                  <additionalData />
+                  <infoObjects />
+                </ContentNode>
+              </subNodes>
+              <additionalData />
+              <infoObjects />
+            </ContentNode>
+          </subNodes>
+          <additionalData />
+          <infoObjects />
+        </ContentNode>
+        <ContentNode idNum="7" orderNum="6" linkTo="0" nodeType="pc">
+          <conversationText>(Neutral) Actually, I've got to go.</conversationText>
+          <conversationComments />
+          <subNodes>
+            <ContentNode idNum="11" orderNum="1" linkTo="0" nodeType="npc">
+              <conversationText>Don't be a stranger!</conversationText>
+              <conversationComments />
+              <subNodes />
+              <additionalData />
+              <infoObjects />
+            </ContentNode>
+          </subNodes>
+          <additionalData />
+          <infoObjects />
+        </ContentNode>
+      </subNodes>
+      <additionalData />
+      <infoObjects />
+    </ContentNode>
+  </subNodes>
+  <additionalData />
+  <infoObjects />
+  <VersionNumber>2</VersionNumber>
+</Conversation>
